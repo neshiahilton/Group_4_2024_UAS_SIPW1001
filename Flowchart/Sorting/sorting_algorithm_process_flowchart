@@ -1,0 +1,17 @@
+digraph {
+	A [label="Define the Sorting Problem" fillcolor=lightblue shape=box style=filled]
+	B [label="Analyze Input Characteristics" fillcolor=lightgreen shape=box style=filled]
+	C [label="Select a Sorting Method" fillcolor=lightpink shape=box style=filled]
+	D [label="Design the Sorting Logic" fillcolor=lightyellow shape=box style=filled]
+	E [label="Implement the Algorithm" fillcolor=lightcyan shape=box style=filled]
+	F [label="Test with Different Inputs" fillcolor=lavender shape=box style=filled]
+	G [label="Evaluate and Optimize" fillcolor=lightcoral shape=box style=filled]
+	H [label="Deploy and Use" fillcolor=gray shape=ellipse style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}
