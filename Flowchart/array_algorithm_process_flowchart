@@ -1,0 +1,19 @@
+digraph {
+	A [label="Define the Problem" fillcolor=lightblue shape=box style=filled]
+	B [label="Analyze the Array" fillcolor=lightgreen shape=box style=filled]
+	C [label="Plan the Logic" fillcolor=lightpink shape=box style=filled]
+	D [label="Choose the Algorithm" fillcolor=lightyellow shape=box style=filled]
+	E [label="Design the Algorithm" fillcolor=lightcyan shape=box style=filled]
+	F [label="Implement the Algorithm" fillcolor=lavender shape=box style=filled]
+	G [label="Test with Various Inputs" fillcolor=lightcoral shape=box style=filled]
+	H [label="Optimize and Analyze" fillcolor=lightgray shape=box style=filled]
+	I [label="Finalize and Document" fillcolor=white shape=ellipse style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+}

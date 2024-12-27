@@ -1,0 +1,19 @@
+digraph {
+	A [label="Define the Graph Problem" fillcolor=lightblue shape=box style=filled]
+	B [label="Analyze the Graph" fillcolor=lightgreen shape=box style=filled]
+	C [label="Choose the Graph Algorithm" fillcolor=lightpink shape=box style=filled]
+	D [label="Plan the Approach" fillcolor=lightyellow shape=box style=filled]
+	E [label="Design the Algorithm" fillcolor=lightcyan shape=box style=filled]
+	F [label="Implement the Algorithm" fillcolor=lavender shape=box style=filled]
+	G [label="Test with Different Graphs" fillcolor=lightcoral shape=box style=filled]
+	H [label="Optimize and Analyze" fillcolor=lightgray shape=box style=filled]
+	I [label="Finalize and Document" fillcolor=white shape=ellipse style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+}
